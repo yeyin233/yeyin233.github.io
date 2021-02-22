@@ -29,3 +29,10 @@ hexo deploy # 或者执行hexo d也可
 ```
 
 5. 点击域名https://yaotingting.net/查看显示。
+
+### 如何向本仓库贡献博客资料
+
+如果你想在本repo发布你的博客资料，可以向本博客发送pull request，即PR
+
+1. 先将本仓库fork至自己名下
+2. 按照`如何添加并发布个人博客资料`步骤中操作，无误后，请求将变动文件合并到这个repo，点击个人仓库中的pull request，等待我的code review，通过后即可显示。
