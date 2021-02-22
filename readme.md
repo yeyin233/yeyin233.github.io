@@ -7,10 +7,11 @@
 
 ### 如何添加并发布个人博客资料
 
-1. 下载分支source的代码到本地电脑
+1. 下载分支source的代码到本地电脑，并且同步`themes/next`子模块
 
 ```bash
 git clone -b source git@github.com:xuanwuwake/xuanwuwake.github.io.git
+git submodule update --init --recursive
 ```
 
 2. 在路径`blog/source/_posts`下添加md文件
