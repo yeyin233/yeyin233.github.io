@@ -4,6 +4,8 @@ args=$1
 
 if [ -z $args ]; then
     echo 'please input args'
+    echo './deploy.sh s  # run server to display pages'
+    echo './deploy.sh s  # deploy pages to remote repo.'
     exit 1
 fi
 
