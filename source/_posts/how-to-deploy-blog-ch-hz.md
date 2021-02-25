@@ -66,6 +66,13 @@ npm install hexo-deployer-git --save
 # deploy.sh
 hexo clean && hexo generate && hexo server && hexo deploy
 ```
+
+# 配置Hexo
+
+在Hexo根目录下有个文件`_config.yml`，在这里面可以对Hexo做配置，具体配置见[这里](https://hexo.io/zh-cn/docs/configuration.html)。
+
+另外，Hexo有全局变量、网站变量、页面变量等属性，也可以对Hexo做配置，具体变量见[这里](https://hexo.io/zh-cn/docs/variables.html)。
+
 # 资料：
 
 - https://hexo.io/zh-cn/index.html
