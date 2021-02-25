@@ -73,6 +73,10 @@ hexo clean && hexo generate && hexo server && hexo deploy
 
 另外，Hexo有全局变量、网站变量、页面变量等属性，也可以对Hexo做配置，具体变量见[这里](https://hexo.io/zh-cn/docs/variables.html)。
 
+# Hexo下Markdown写作
+
+Hexo形成标签、目录等有特殊的Markdown标签，具体用法见[这里](https://hyxxsfwy.github.io/2016/01/15/Hexo-Markdown-%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/)，本页保存的PDF见[这里](https://github.com/xuanwuwake/xuanwuwake.github.io/blob/external_link/Hexo_Markdown.pdf)
+
 # 资料：
 
 - https://hexo.io/zh-cn/index.html
