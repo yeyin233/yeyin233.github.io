@@ -28,7 +28,7 @@ hexo server # 启动本地服务器，查看网站显示，或者执行hexo s也
 hexo deploy # 或者执行hexo d也可
 ```
 
-5. 点击域名https://yaotingting.net/查看显示。
+5. 点击域名https://yaotingting.net/ 查看显示。
 
 ### 如何向本仓库贡献博客资料
 
