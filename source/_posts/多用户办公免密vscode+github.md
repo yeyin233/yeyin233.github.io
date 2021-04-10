@@ -1,5 +1,5 @@
 ﻿---
-titles: 多用户办公免密vscode+github
+title: 多用户办公免密vscode+github
 ---
 
 # 场景
@@ -31,6 +31,18 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 解决问题3：
 ```bash
 adduser user_name
+```
+
+在添加新用户至Ubuntu时，若使用`sudo`会报错，解决方法如下：
+
+```bash
+#使用能运行sudo命令的账户
+sudo chmod u+w /etc/sudoers
+sudo vim /etc/sudoers
+
+# 将新账户按照root格式添加一行
+root    ALL=(ALL:ALL) ALL
+$new_username ALL=(ALL:ALL) ALL
 ```
 
 [查看PC上有多少组/用户](https://blog.csdn.net/dehailiu/article/details/10086725)：
