@@ -77,7 +77,8 @@ map<int, int, cmp> mp;
 ```
 # 3.重载小于运算符
 sort函数，set、map容器都是默认升序排序的，因此如果我们的元素是结构体或者类实例，此时我们可以通过重载小于运算符来实现自定义排序。
-```c
+
+```cpp
 struct node {
     int a, b;
     const bool operator < (const struct node n) const {
