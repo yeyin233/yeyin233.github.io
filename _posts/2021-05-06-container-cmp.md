@@ -86,7 +86,7 @@ struct node {
     }
 };
 
-vector<node> v = {{1,2}, {-1,2}, {0, 10}};
+vector<node> v = { {1,2}, {-1,2}, {0, 10}};
 sort(v.begin(), v.end());
 set<node> st;
 st.insert({1,2});
