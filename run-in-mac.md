@@ -6,6 +6,7 @@
 
 ```
 brew install ruby
+git -C /usr/local/Library/Taps/homebrew/homebrew-core fetch --unshallow
 brew install --build-from-source ruby
 ```
 
