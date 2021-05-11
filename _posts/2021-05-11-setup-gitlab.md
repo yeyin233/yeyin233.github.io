@@ -8,11 +8,11 @@ tags:
     - GitLab
 ---
 
-# 环境
+# 1. 环境
 
 - Ubuntu 18.04.5 LTS
 
-# 搭建步骤
+# 2. 搭建步骤
 
 1. 安装依赖
 
@@ -28,7 +28,7 @@ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.de
 sudo apt-get install gitlab-ce
 ```
 
-# 配置
+# 3. 配置
 
 1. 修改访问地址
 
@@ -52,6 +52,6 @@ sudo gitlab-ctl start
 sudo gitlab-ctl stop
 ```
 
-# 相关资料
+# 4. 相关资料
 
 - https://www.jianshu.com/p/991daadbfc4d
