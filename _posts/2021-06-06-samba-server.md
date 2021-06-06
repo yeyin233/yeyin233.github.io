@@ -54,4 +54,4 @@ sudo /etc/init.d/smbd restart
 - 在Mac上登录samba文件服务器：打开finder，然后command+k，输入samba://ip
 2. [将文件服务器与磁盘驱动器映射](https://blog.csdn.net/hunanchenxingyu/article/details/9751639)，在Windows10，点击此电脑->映射网络驱动器。
 
-![](../img/samba_driver.png)
+![](../images/2021-06-06-samba-server/samba_driver.png)
